@@ -1,0 +1,73 @@
+.Tasks {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px 0;
+
+  .title {
+    color: #3c4b64;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 5px 0 15px 10px;
+    overflow-wrap: break-word;
+  }
+
+  .horiz-spacer {
+    flex-grow: 20;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 0 0 10px;
+  }
+
+  button.add {
+    border-radius: 50%;
+    color: #39f;
+    border: 1px solid #39f;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    width: 28px;
+    height: 28px;
+
+    &:hover {
+      border-color: #0080ff;
+      color: #0d86ff;
+    }
+  }
+}
+
+.add-task.popover {
+  border: 1ipx solid #434f63;
+  background-color: #434f63;
+  padding: 3px;
+  border-radius: 4px;
+  vertical-align: middle;
+
+  input {
+    border: 1px solid #434f63;
+    border-right: 0;
+    border-radius: 1px;
+    font-size: 14px;
+    outline: 0;
+    margin-right: 0;
+  }
+
+  .apply {
+    border: 0;
+    cursor: pointer;
+    background-color: #2eb85c;
+    color: #fff;
+    margin-left: 0;
+    height: 19px;
+    position: relative;
+    top: -2px;
+
+    &:hover {
+      background-color: #26994d;
+    }
+  }
+}

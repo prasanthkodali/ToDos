@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Groceries"
+    },
+    {
+      "id": 1,
+      "name": "Tools"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 0,
+      "categoryId": 0,
+      "name": "Buy Groceries",
+      "completed": false
+    },
+    {
+      "id": 1,
+      "categoryId": 0,
+      "name": "Get Kids from School",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "categoryId": 0,
+      "name": "Wash Dishes",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "Spanner",
+      "completed": false
+    }
+  ]
+}

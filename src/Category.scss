@@ -1,0 +1,14 @@
+.Category {
+  padding: 13px 16px;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 500;
+
+  &.selected {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}

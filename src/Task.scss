@@ -1,0 +1,50 @@
+.Task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 0 8px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3c4b64;
+  border-bottom: 1px solid #ced2d8;
+
+  &:nth-child(2) {
+    border-top: 1px solid #ced2d8;
+  }
+
+  & > span {
+    padding: 6px 0;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 36px);
+  }
+
+  input {
+    margin-right: 5px;
+    width: 13px;
+  }
+
+  .name {
+    cursor: pointer;
+    max-width: calc(100% - 17px);
+    overflow-wrap: break-word;
+    overflow: hidden;
+  }
+
+  &.completed .name {
+    text-decoration: line-through;
+  }
+
+  .delete {
+    border: 0;
+    color: #e55353;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+      color: #e03232;
+    }
+  }
+}
